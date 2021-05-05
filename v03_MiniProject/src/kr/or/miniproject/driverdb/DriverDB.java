@@ -11,7 +11,7 @@ public class DriverDB {
         
 		Class.forName("com.mysql.jdbc.Driver");
         
-		String jdbcDriver = "jdbc:mysql://3.35.132.105:52219/test?" +
+		String jdbcDriver = "jdbc:mysql://54.180.108.17:57236/test?" +
 				"useUnicode=true&characterEncoding=utf8";
 		String dbUser = "testid";
 		String dbPass = "testpw";
