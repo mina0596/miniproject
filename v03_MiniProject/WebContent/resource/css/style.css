@@ -1,0 +1,253 @@
+/*******************************************************
+TITLE: Fixed One-Column #2 Layout (Basic) V1.0 (Beta)
+DATE: 20070807
+AUTHOR: The CSS Tinderbox - http://www.csstinderbox.com
+*******************************************************/
+
+body {
+margin:20px;
+padding:0;
+height:100%;
+background-color:#ffffff;
+color:#000000;  
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:16px;
+}
+
+a:link {
+color:#000;
+text-decoration:none;
+}
+
+a:visited {
+color:#D86161;
+text-decoration:none;
+}
+
+a:hover {
+color:#000;
+text-decoration:none;
+}
+
+ul {
+margin:0 0 0 20px;
+list-style-type:disc;
+}
+
+li {
+margin:4px 0 5px 10px;
+}
+
+
+.login{
+    width:120px;
+    margin: 3px 0;
+    border-radius: 6px;
+    border-color:#555;
+    border:0;
+    outline:0;
+}
+
+input[type=button]{
+    width: 70px;
+    height: 45px;
+    font-size:15px;
+    font-weight: 700;
+}
+
+.login:focus {
+    animation-name: border-focus;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes border-focus{
+    form{
+        border-radius: 0;
+    }
+    to{
+        border-radius:15px;
+    }
+}
+
+blockquote {
+margin:1em;
+padding:.5em;
+background-color:#eeeeee;
+border-top:1px solid #cccccc;
+border-bottom:1px solid #cccccc;
+}
+
+blockquote p {
+margin:.2em;
+}
+
+#container { 	
+margin:0 auto;
+padding:0;
+width:1550px;
+text-align:left;
+vertical-align: middle;	
+background-color:#ffffff;
+border:1px solid #cccccc;
+}
+
+
+#header {
+margin:0;
+padding:0;
+height:160px;
+background-image:url("image01.jpg");
+background-size: 220px;
+background-position: center top;
+}
+
+
+#header h1 {
+margin:0;
+padding:20px 0 0 20px;
+font-size:1.8em;
+letter-spacing:.1em;
+color:#ffffff;
+font-weight:lighter;
+}
+
+#header h2 {
+margin:0;
+padding:0 0 0 20px;
+font-size:.9em;
+font-weight:lighter;
+letter-spacing:.1em;
+color:#eeeeee;
+}
+
+#login {
+    padding: 20px;
+    margin-top:55px;
+    text-align:right;
+}
+
+#leftColumn {
+float:left;
+margin:0;
+padding:0;
+width:160px;
+height:560px;
+font-size:.9em;
+border-right: 1px solid #cccccc;
+}
+
+#leftColumn p {
+padding:10px
+}
+
+
+#leftColumn h2 {
+margin:0;
+padding:10px 0 0 10px;
+font-size:1em;
+}
+
+#leftColumn ul {
+margin:0 0 0 0;
+padding: 0;
+list-style:none;
+background-color: #f1f1f1;
+}
+
+#leftColumn li {
+margin:15px 0 15px 10px;
+}
+
+#leftColumn li a {
+color:#000;
+display: block;
+text-decoration:none;    
+padding: 8px 16px;
+}
+
+#leftColumn li a.active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+#leftColumn li a:hover:not(.active){
+    background-color: #555;
+    color: white;
+}
+
+#leftColumn li a:hover{
+color:#000;
+text-decoration:none;    
+}
+
+#centerColumn { 	
+margin:0 0 0 180px;
+padding:0;
+background-color:#ffffff;
+height:560px;
+overflow:auto;
+}
+
+#centerColumn p {
+padding:10px
+}
+
+#centerColumn h2 {
+margin:0;
+padding:10px 0 5px 0;
+font-size:1.3em;
+letter-spacing:.1em;
+line-height:3;
+}
+
+#footer {
+position:relative;
+bottom:0;
+padding:0;
+height:60px;
+line-height:60px;
+text-align:center;
+font-size:.6em;
+background-color:#ffffff;
+border-top:1px solid #cccccc;
+}
+
+
+.event_number, .event_id, .event_cate
+, .post_number, .post_id, .post_cate{
+    height:40px;
+    width:100px;
+    text-align:center;
+    vertical-align:middle;height:40px;
+}
+.event_reg_date, .post_reg_date{
+    height:40px;
+    width:200px;
+    text-align:center;
+    vertical-align:middle;height:40px;
+}
+.event_title, .post_title{
+    
+    height:40px;
+    width:1050px;
+    text-align:center;
+    vertical-align:middle;height:40px;
+}
+
+
+.select_class {
+    border-radius: 6px;
+    border-color:#555;
+    border:0;
+    outline:0;
+}
+
+.content span {
+    line-height:3;
+}
+
+
+
+
