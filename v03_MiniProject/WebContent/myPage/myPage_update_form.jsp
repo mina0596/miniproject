@@ -61,8 +61,7 @@
             <td><input type="date" name="m_reg_date" size="20" value=<%= m.getRegular_reg_date() %> readonly="readonly"></td>
         <tr>
         <tr>
-            <td colspan="4"><a href="<%= request.getContextPath() %>/myPage/myPage_update_action.jsp?send_id=<%=m.getRegular_id()%>">수정완료</a>
-            </td>
+            <td colspan="4"><input type="submit" value="회원수정버튼"></td>
         </tr>
     </table> 
     </form>
