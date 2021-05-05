@@ -24,9 +24,8 @@ public class Mdao {
 		System.out.println("02 수정 처리 메서드 mUpdate Mdao.java");
 		DriverDB db = new DriverDB();
 		conn = db.driverDbcon();
-		pstmt = conn.prepareStatement(
-				"UPDATE regular_member SET regular_pw=?,regular_name=?,regular_gender=?,regular_phone=?,regular_email=?,regular_addr=? WHERE regular_id=?");
-		System.out.println(pstmt + "<-- pstmt 1");
+		pstmt = conn.prepareStatement("UPDATE regular_member SET regular_pw=?,regular_name=?,regular_gender=?,regular_phone=?,regular_email=?,regular_addr=? WHERE regular_id=?");
+
 		pstmt.setString(1, m.getRegular_pw());
 		pstmt.setString(2, m.getRegular_name());
 		pstmt.setString(2, m.getRegular_gender());
